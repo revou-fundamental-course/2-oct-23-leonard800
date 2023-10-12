@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <header>
+        <h1>Temperature Converter</h1>
+    </header>
+    <main>
+        <section class="input-section-celcius">
+            <label for="input-field-celcius">Celsius</label>
+            <input id="input-field-celcius" type="number" step="0.01" placeholder="0">
+        </section>
+        <section class="input-section-fahrenheit">
+            <label for="output-field-fahrenheit">Fahrenheit</label>
+            <input id="output-field-fahrenheit" type="number" step="0.01" placeholder="0">
+        </section>
+        <div id="input-button">
+            <button id="convert-button">Convert</button>
+            <button id="reset-button">Reset</button>
+        </div>
+        <section class="result-section">
+            <label for="result-field">Results</label>
+            <input id="result-field" type="text" readonly>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
